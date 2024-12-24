@@ -8,4 +8,10 @@
       "use": "@vercel/next"
     }
   ]
+    "env": {
+    "NEXT_PUBLIC_API_URL": "https://api.example.com",
+    "DATABASE_URL": "postgres://user:password@host:port/database"
+  }
+    
 }
+
